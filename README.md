@@ -16,8 +16,10 @@ Comprehensive hands-on curriculum and code repository for mastering production B
 
 ## 📁 Repository Structure & Progress
 
-| Module | Script | Topic & Core Concept |
+| Module / Asset | Script / Resource | Topic & Core Concept |
 | :--- | :--- | :--- |
+| **Revision PDF** | [📕 `Bash_Shell_Scripting_Mastery_Handbook.pdf`](./Bash_Shell_Scripting_Mastery_Handbook.pdf) | Formatted multi-page PDF handbook covering today's concepts, mental models, code, and cheat sheet. |
+| **PDF Generator** | [`generate_pdf_guide.py`](./generate_pdf_guide.py) | Standalone Python ReportLab script to regenerate/update the handbook. |
 | **Module 1** | [`server-info.sh`](./server-info.sh) | The Anatomy of a Script, Portable Shebang (`#!/usr/bin/env bash`), permissions (`chmod +x`), sequential command execution. |
 | **Module 2** | [`deploy_config.sh`](./deploy_config.sh) | Variables, assignment rules (no spaces around `=`), parameter concatenation `${VAR}_suffix`, double-quoting standards. |
 | **Module 3** | *(Upcoming)* | Command Substitution `$(...)` and dynamic live system telemetry extraction. |
